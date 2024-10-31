@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SB SMS Sender\n"
+"POT-Creation-Date: 2021-06-17 08:16+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Max Shostak <shostak.brothers@gmail.com>\n"
+"Language-Team: SB Development\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: example.php\n"
+"X-Poedit-SearchPathExcluded-1: readme.txt\n"
+
+#: inc/admin.php:10
+msgid "SMS Sender"
+msgstr "Відправник SMS"
+
+#: inc/admin.php:28 inc/admin.php:112
+msgid "General"
+msgstr "Загальні"
+
+#: inc/admin.php:29
+msgid "Cabinet"
+msgstr "Кабінет"
+
+#: inc/admin.php:55
+msgid "API Documentation"
+msgstr "Документація API"
+
+#: inc/admin.php:79
+msgid "Client data"
+msgstr "Дані клієнта"
+
+#: inc/admin.php:81
+msgid ""
+"Click <a href=\"https://smsclub.mobi/\">here</a> to login/register and use "
+"your credentials below"
+msgstr ""
+"Натисніть <a href=\"https://smsclub.mobi/\">тут,</a> щоб увійти / "
+"зареєструватися і використовувати свої облікові дані нижче"
+
+#: inc/admin.php:85
+msgid "Login"
+msgstr "Логін"
+
+#: inc/admin.php:87
+msgid "Your login in SMS Club"
+msgstr "Ваш логін в SMS Club"
+
+#: inc/admin.php:91
+msgid "Token"
+msgstr "Токен"
+
+#: inc/admin.php:93
+msgid "Your token in SMS Club"
+msgstr "Ваш токен в SMS Club"
+
+#: inc/admin.php:97
+msgid "Alfa name"
+msgstr "Альфа-ім'я"
+
+#: inc/admin.php:99
+msgid "Alfa name of your campaign"
+msgstr "Альфа назва вашої кампанії"
+
+#: inc/admin.php:114
+msgid "Enable plugin and its options"
+msgstr "Увімкнути плагін і його параметри"
+
+#: inc/admin.php:118
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: inc/admin.php:121
+msgid "Enable SMS sending"
+msgstr "Ввімкнути відправку SMS"
+
+#: inc/admin.php:130
+msgid "Tune SMS sending"
+msgstr "Налаштування відправки SMS"
+
+#: inc/admin.php:136
+msgid "New order"
+msgstr "Нове замовлення"
+
+#: inc/admin.php:139
+msgid "Enable SMS sending for new order"
+msgstr "Увімкнути відправку SMS для нового замовлення"
+
+#: inc/admin.php:140
+msgid "SMS will be sent to client after visiting thank-you page"
+msgstr ""
+"SMS буде надіслано клієнту після відвідання сторінки Дякую за замовлення"
+
+#: inc/admin.php:144
+msgid "Order is done"
+msgstr "Замовлення виконано"
+
+#: inc/admin.php:147
+msgid "Enable SMS sending when order status changed to completed"
+msgstr "Увімкнути відправку SMS при зміні статусу замовлення на виконане"
+
+#: inc/admin.php:148
+msgid "SMS will be sent to client each time the order status switch to closed"
+msgstr ""
+"SMS буде надіслано клієнту кожного разу як статус замовлення зміниться на "
+"виконано"
+
+#: inc/sender.php:36
+#, php-format
+msgid "Order №%s created successfully. We call you asap."
+msgstr "Замовлення No%s успішно створено. Ми зв'яжемся з вами якомога швидше."
+
+#: inc/sender.php:43
+#, php-format
+msgid "Order №%s completed."
+msgstr "Замовлення No%s завершено."
+
+#: sb-sms-sender.php:16 sb-sms-sender.php:27
+msgid "SB SMS Sender"
+msgstr "SB SMS відправник"
+
+#: sb-sms-sender.php:17
+msgid "Send SMS to client using SMS club"
+msgstr "Відправте SMS клієнту за допомогою SMS club"
+
+#: sb-sms-sender.php:38
+#, php-format
+msgid ""
+"Sorry, but your version of PHP (%s) is not supported by %s. PHP 7.2 or "
+"greater is required. Plugin has been deactivated. We recommend contacting "
+"your hosting provider to have your PHP version upgraded. <a href=\"%s"
+"\">Return to the Dashboard.</a>"
+msgstr ""
+"Вибачте, але ваша версія PHP ( %s ) не підтримується %s . PHP 7.2 або вище "
+"потрібно. Компонент plug-in деактивовано. Ми рекомендуємо зв'язатися з вашим "
+"хостинг-провайдером, щоб оновити версію PHP. <a href=\"%s\">Повернутися до "
+"Консолі.</a>"
+
+#: sb-sms-sender.php:47
+#, php-format
+msgid ""
+"Sorry, but your version of WordPress, %s, is not supported by %s. WP 5.0 or "
+"greater is required. Plugin has been deactivated. <a href=\"%s\">Return to "
+"the Dashboard.</a>"
+msgstr ""
+"Вибачте, але ваша версія %s WordPress, не підтримується %s . WP 5.0 або "
+"вище. Компонент plug-in деактивовано. <a href=\"%s\">Повернутися до Консолі."
+"</a>"
